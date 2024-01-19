@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flight Tickets Booking</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Flight Finder</h1>
+        <nav>
+            <!-- Navigation items if needed -->
+        </nav>
+    </header>
+    <main>
+        <form id="flightSearchForm">
+            <div class="form-group">
+                <label for="departureCity">Departure City:</label>
+                <input type="text" id="departureCity" name="departureCity" required>
+            </div>
+            <div class="form-group">
+                <label for="destinationCity">Destination City:</label>
+                <input type="text" id="destinationCity" name="destinationCity" required>
+            </div>
+            <div class="form-group">
+                <label for="departureDate">Departure Date:</label>
+                <input type="date" id="departureDate" name="departureDate" required>
+            </div>
+            <div class="form-group">
+                <label for="returnDate">Return Date:</label>
+                <input type="date" id="returnDate" name="returnDate">
+            </div>
+            <button type="submit">Search Flights</button>
+        </form>
+    </main>
+    <footer>
+        <p>&copy; 2024 Flight Finder. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
