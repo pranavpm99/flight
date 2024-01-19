@@ -1,0 +1,14 @@
+document.getElementById('flightSearchForm').addEventListener('submit', function(event) {
+    event.preventDefault();
+
+    const departureCity = document.getElementById('departureCity').value;
+    const destinationCity = document.getElementById('destinationCity').value;
+    const departureDate = document.getElementById('departureDate').value;
+    const returnDate = document.getElementById('returnDate').value;
+
+    // Here you would typically handle the form submission,
+    // such as sending data to a server or redirecting to a results page.
+    // For demonstration, we'll just log the input values.
+
+    console.log(Searching flights from ${departureCity} to ${destinationCity}, Departure: ${departureDate}, Return: ${returnDate});
+});
